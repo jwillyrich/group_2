@@ -21,7 +21,7 @@ Wake County, NC is a growing area that is drawing people to move to from all ove
 # Questions we want to answer
 * What is the best location based on our factors?
     * Input based on relationship status: Single, Married, Has Children
-* Do the factors we estimate will make a home desirable also correlate with the cost to purchase?
+* Do the factors we estimate make a home desirable also correlate with the cost to purchase?
 
 # Data exploration
 During our data exploration phase we wanted to find a reliable and thorough dataset to begin our analysis, we found this in the Wake County tax data. While the tax data had quite a lot of information we decided to remove all of the data that did not affect the attributes of the home or it’s location. We did web scraping with the Zillow data with beautifulsoup, splinter, and web driver to gather information around the county to assess what would make a location attractive to move to. Looking outside of the data presented on real estate sites we found transportation noise rasters to be able to assess how sound can impact the comfort of a home. We used GIS to relate the dB level raster with the tax parcel data to use alongside our other sources. To find crime rates we had to pull data from many cities around the county but were able to find the needed tables to work with.
